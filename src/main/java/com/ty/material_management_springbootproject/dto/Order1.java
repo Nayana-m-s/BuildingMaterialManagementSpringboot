@@ -1,5 +1,5 @@
 package com.ty.material_management_springbootproject.dto;
 
-public class Demo {
+public class Order1 {
 
 }
