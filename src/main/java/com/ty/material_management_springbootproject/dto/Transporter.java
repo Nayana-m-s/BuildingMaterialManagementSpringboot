@@ -10,17 +10,16 @@ import lombok.Data;
 @Entity
 @Data
 public class Transporter {
-	   @Id
-	   @GeneratedValue(strategy = GenerationType.IDENTITY)
-	   private int id;
-	private String	Name;
-	private String 	Address;
-	private String 	Email;
-		private String Password;
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private int id;
+	private String Name;
+	private String Address;
+	private String Email;
+	private String Password;
 	private long Phone;
 	private long Driver_licence_no;
-	private long 	Vehicle_no;
-	
-	
+	private long Vehicle_no;
 
 }

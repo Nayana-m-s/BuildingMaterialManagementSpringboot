@@ -2,6 +2,8 @@ package com.ty.material_management_springbootproject.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface OrderRepository extends JpaRepository<OrderRepository, Integer> {
+import com.ty.material_management_springbootproject.dto.MaterialOrder;
+
+public interface OrderRepository extends JpaRepository<MaterialOrder, Integer> {
 
 }
