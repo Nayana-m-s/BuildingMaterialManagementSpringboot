@@ -1,5 +1,12 @@
 package com.ty.material_management_springbootproject.dto;
 
-public class Order1 {
+import javax.persistence.Entity;
+
+import lombok.Data;
+
+@Entity
+@Data
+public class MaterialOrder {
+	
 
 }
